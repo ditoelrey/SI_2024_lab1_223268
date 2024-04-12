@@ -1,0 +1,54 @@
+commit 4e20f125f6c6a33b6b582a2a43faeba0f9bee842
+Merge: be2df67 b53c42d
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:18:55 2024 +0200
+
+    Merge branch 'bug2' of https://github.com/ditoelrey/SI_2024_lab1_223268 into bug2
+
+commit be2df67da1fd894b4aee330b5310bd92ad437e0b
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:09:49 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 9dd45f7dca569d673c402aa16b124248312dff4a
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:06:44 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit b53c42da96966fb5703a44addaf95a9c034908ca
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:09:49 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 81ecdd44fcae0c2943112651e0fdc3e9a3f53575
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:09:11 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 113ed7d22d90d96d7576d151ee17f2841f678b2c
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:06:44 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 95b312b753a7b9ab84d69a03d3b31ae267a74e29
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:03:17 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit fc9221400b57a2cc173c17be881c6dbf641bbbda
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 15:53:41 2024 +0200
+
+    Add starter code
+
+commit e62b0faf7a7be3515b5b2ace242827a8612aa59b
+Author: El Rey <dimitar.ahtarov@students.finki.ukim.mk>
+Date:   Fri Apr 12 15:52:03 2024 +0200
+
+    Initial commit

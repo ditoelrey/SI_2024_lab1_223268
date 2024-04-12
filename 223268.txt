@@ -1,0 +1,60 @@
+git clone https://github.com/ditoelrey/SI_2024_lab1_223268.git
+cd C:\Users\dimit\SI_2024_lab1_223268 //Клонирање на ремоте во локал репо.
+git init //иницијализација на репото
+git status
+echo "# SI_2024_lab1_223268" >> README.md //креирање README
+git add . ставање во staged.
+git commit -m "Initial commit" // прв комит само со README.
+
+git fetch 
+git merge origin master
+git pull origin master
+git push origin master //команди за синхронизација
+
+git checkout -b bug1 //креирање нова гранка bug1
+git branch
+git checkout master //враќање на master 
+git checkout -b bug2 //креирање нова друга гранка bug2
+
+git checkout bug1 // префрлање на bug1, исправање на багот и комит.
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+git push origin bug1
+
+git checkout bug2 //истото само за bug2.
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+git push origin bug2
+git checkout bug1
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+git checkout bug2
+
+git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+git fetch --all //синхронизација на сите гранки
+git checkout master
+git pull
+git checkout bug1
+git pull
+git checkout bug2
+git pull
+git checkout master
+git merge bug1  // спојување на bug1 со мастер.
+git push origin master
+git checkout bug2
+git rebase master //ребасе на мастер
+git add SILab1Main.java //решавање на конфликтот
+git rebase --continue
+git push origin bug2 //синхронизација
+git pull origin bug2
+git push origin bug2
+git checkout master
+git merge bug2
+git push origin master
+git pull origin bug2
+git push --force origin bug2
+git log > logs.txt //креирање txt документ со сите комити/логови
+git add . 
+git commit -m "Final commit" //последен комит
+git push origin master // синхронизација на се до сега.
